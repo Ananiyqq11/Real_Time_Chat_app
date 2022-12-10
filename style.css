@@ -31,11 +31,27 @@ body{
     border-bottom: 1px solid #e6e6e6;
 }
 .wrapper form{
-    margin: 20px;
+    margin: 20px 0;
 }
 .wrapper section form .error-txt{
     color: #721c24;
     background: lightpink;
     padding: 8px 10px;
     text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #f5c6cb;
+}
+.wrapper .name-details .field{
+display: flex;
+flex-direction: column;
+margin-bottom: 10px;
+}
+.wrapper .name-details .fieldinput{
+height: 40px;
+width: 100%;
+font-size: 16px;
+padding: 0 10px;
+border: 1px solid #ccc ;
+border-radius: 5px;
 }
